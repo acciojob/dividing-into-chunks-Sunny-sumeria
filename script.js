@@ -2,8 +2,6 @@ const arr = [1, 2, 3, 4, 1, 0, 2, 2];
 
 const divide = (arr, n) => {
   // Write your code here
-
-	function divide(arr, n) {
     if (arr.length === 0) return [];
 
     let chunks = [];
@@ -32,12 +30,6 @@ const divide = (arr, n) => {
 
     return chunks;
 }
-
-// Testing with your example
-console.log(divide([1, 2, 3, 4, 1, 0, 2, 2], 5)); 
-// Output: [[1, 2], [3], [4, 1, 0], [2, 2]]
-	
-};
 
 const n = prompt("Enter n: ");
 alert(JSON.stringify(divide(arr, n)));
